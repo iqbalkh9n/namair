@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+
+html {
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  direction: rtl;
+  color: var(--fg);
+  background-color: var(--bg);
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+code {
+  font-family: "Noto Naskh Arabic", "Noto Kufi Arabic";
+  direction: rtl;
+  text-align: center;
+}
+
+pre {
+  direction: ltr;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--content-max-width);
+}
+.book.font-family-0 {
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book-summary, .book-header {
+  font-family: "Noto Kufi Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#menu-bar-hover-placeholder {
+  height: 0 !important;
+}
+
+.menu-bar {
+  /* background-color: red !important; */
+}
+
+.sidebar {
+  left: auto; right: 0;
+  transition: none !important;
+}
+
+.sidebar-hidden .sidebar {
+  right: -600px;
+}
+
+.sidebar-visible .page-wrapper {
+  margin-left: 0px !important; margin-right: 300px;
+  left: 0px; right: unset;
+}
+
+ul.theme-popup {
+  left: unset;
+}
+
+/* .theme-popup button.theme {
+  text-align: right;
+} */
+
+.previous {
+  float: right !important;
+}
+
+.next {
+  float: left !important;
+  right: unset !important;
+  left: var(--page-padding);
+}

@@ -1,0 +1,17 @@
+[book]
+authors = ["محمد اقبال خان"]
+language = "ps"
+multilingual = false
+src = "src"
+title = "جونګ"
+
+[output.html]
+git-repository-url = "https://namair.gigalixirapp.com/"
+git-repository-icon = "fa-home"
+additional-css = ["custom/custom.js"]
+
+[output.html.print]
+enable = true
+
+[output.html.search]
+enable = false
